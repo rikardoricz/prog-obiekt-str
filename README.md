@@ -1,1 +1,3 @@
-# school-js
+# Programowanie JS
+nic specjalnego
+Tomasz Świątek
