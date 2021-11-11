@@ -1,3 +1,3 @@
 # Programowanie JS
-nic specjalnego
+nic specjalnego  
 Tomasz Świątek
