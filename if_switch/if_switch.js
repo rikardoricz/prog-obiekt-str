@@ -49,14 +49,14 @@ document.getElementById("zad6").onclick = function () {
   let fiveNums = new Array(5);
   for (let i = 0; i < fiveNums.length; i++) {
     fiveNums[i] = +prompt("Podaj liczbę:");
+    fiveNums = fiveNums.sort((a,b) => a-b);
   }
-  fiveNums = fiveNums.sort();
   const total = fiveNums.reduce((a, b) => {
     return a + b;
   });
   console.log(`
-    Najmniejsza wartość: ${fiveNums[0]}
     Największa wartość: ${fiveNums[fiveNums.length - 1]}
+    Najmniejsza wartość: ${fiveNums[0]}
     Średnia: ${total / fiveNums.length}
     `);
 };
