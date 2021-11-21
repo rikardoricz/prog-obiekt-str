@@ -1,0 +1,15 @@
+Zad1. Napisz program obliczający silnię z podanej przez użytkownika liczby. Program powinien sprawdzić, czy podana liczba jest większa od 0. Jeśli liczba jest ujemna, wówczas program powinien zwrócić komunikat o błędzie i zakończyć działanie. Jeśli liczba jest równa 0, wówczas program powinien zwrócić komunikat 0!=1. Jeśli jest dodatnia, wypisz wynik na ekranie.
+
+Zad2. Napisz program wyświetlający wszystkie liczby 2cyfrowe podzielne przez 4.
+
+Zad 3. Napisz program, który wyświetli na ekranie liczby od 0 do 200 z krokiem pobranym od użytkownika. Liczby rozdziel spacjami. np. : krok = 5 -> 0 5 10 15 20…..
+
+Zad4. Napisz program, który wyznacza sumę 5 liczb kolejno podawanych przez użytkownika. Dane pobrane od użytkownika zapisz do tablicy. Wyświetl całą tablicę oraz końcowy wynik (sumę) na ekranie.
+
+Zad 5. Napisz program, który pobiera od użytkownika kolejne liczby całkowite, aż do momentu wprowadzenia 0. Dla wpisanych liczb znajdź wartość maksymalną i minimalną. Wyniki wyświetl na sam koniec i opatrz odpowiednim komentarzem.
+
+Zad6. Napisz program pobierający od użytkownika liczby, aż do momentu, kiedy ich suma przekroczy 50. Wyświetl informację ile liczb zsumowano.
+
+Zad 7. Ojciec ma syna, któremu daje przez 30 dni pieniądze. W pierwszym dniu syn otrzymał 2zł, a każdego następnego dostaje 2 razy więcej niż w dniu poprzednim. Na wyjściu z programu zwróć informację ile pieniędzy zaoszczędził syn.
+
+Zad8. Napisz program obliczający ilość cegieł w piramidzie 10x10 cegieł w podstawie. Wynik wyświetl na ekranie.
