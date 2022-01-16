@@ -1,0 +1,29 @@
+1. Wpisz do tablicy imiona 3 kolegów. Następnie za pomocą metod push dopisz 2 imiona kolegów a następnie usuń 1 imię za pomocą metody pop. Wyświetl tablicę.
+
+2. Utwórz tablicę o nazwie tab1, zawierającą następujące liczby całkowite: 7, 3, 1, 6, 9, 5, 4, 10, 2, 2.
+
+a. Wypisz zawartość 5 komórki tablicy na ekran. Zmień zawartość 7 komórki tablicy, wprowadzając do niej wartość 12.
+
+b. Utwórz drugą tablicę o nazwie tab2, o tej samej wielkości co tab1. Przepisz zawartość tab1 do tab2.
+
+c. Utwórz trzecią tablicę o nazwie tab3, o tej samej wielkości co dwie poprzednie. Zawartością komórek tablicy tab3 jest suma komórek o tych samych indeksach tablic tab1 i tab2.
+
+3. Utwórz tablicę, a następnie:
+
+a. Wypełnij tablicę wartościami podanymi przez użytkownika ( 5 wartości)
+
+b. Znajdź najmniejszy i największy element w tablicy.
+
+c. Oblicz średnią wartość elementów tablicy.
+
+d. Wylicz ilość wystąpień cyfry 3 w tablicy.
+
+e. Dowolnym sposobem posortuj elementy tablicy w porządku rosnącym.
+
+f. Zwiększ wartość każdego elementu tablicy podnosząc go do kwadratu.
+
+g. Policz ilość liczb parzystych i nieparzystych w tablicy.
+
+4. Utwórz pustą tablicę 100 elementów.
+
+a. Wypełnij tablicę kolejnymi potęgami liczby 2.
