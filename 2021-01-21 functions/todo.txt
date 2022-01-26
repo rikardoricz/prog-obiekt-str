@@ -1,0 +1,29 @@
+Zad 1.
+
+Napisz funkcję o nazwie WARTOSC_BEZWZGLEDNA, która przyjmuje jako argument liczbę całkowitą i zwraca wartość bezwzględną z podanej liczby. Wywołaj stworzoną funkcję dla kilku przykładowych danych.
+
+Zad 2.
+
+Napisz funkcję o nazwie CZY_PARZYSTA, która dla liczby całkowitej podanej jako argument zwraca wartość true, jeśli jest parzysta lub false, jeśli jest nieparzysta. Wywołaj stworzoną funkcję dla kilku przykładowych danych.
+
+Zad 3.
+
+Napisz funkcję o nazwie PODZIELNOSC, która jako argumenty pobiera od użytkownika dwie liczby. Pierwsza z nich mówi o tym ilo-cyfrowe liczby nas interesują, a druga ma być dzielnikiem. Przykład:
+
+WEJŚCIE:
+
+Podaj ilocyfrowe liczby Cię interesują : 3
+
+Podaj, przez co mają być podzielne : 87
+
+WYJŚCIE:
+
+Twoje liczby to : 174, 261, 348, 435, 522, 609, 696, 783, 870,957.
+
+Zad 4.
+
+Napisz funkcję o nazwie LICZBA_PIERWSZA, która przyjmuje jako argument liczbę naturalną. Funkcja ma zwracać 1, jeśli podana liczba jest liczbą pierwszą lub 0 w przeciwnym wypadku. W części głównej stwórz obsługę funkcji LICZBA_PIERWSZA, tj. gdy funkcja zwraca 1, powinien pojawić się komunikat, np. „Podana liczba jest liczbą pierwszą”, podobnie dla 0. Wywołaj stworzoną funkcję dla kilku przykładowych danych.
+
+Zad 5.
+
+Napisz funkcję o nazwie LICZBA_CYFR, która przyjmuje w argumencie liczbę naturalną i zwraca liczbę cyfr tej liczby. (np. dla 301939 zwróci 6). Wywołaj stworzoną funkcję w funkcji głównej ( main() ) dla kilku przykładowych danych.
