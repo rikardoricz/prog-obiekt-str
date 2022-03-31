@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosliny</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 class="heading">Najlepsze warzywa - plebiscyt</h1>
+    </header>
+    <div id="banner">
+        <img src="veggies.png" alt="veggies-banner">
+    </div>
+    <div id="wrapper">
+        <img class="beetroot-img" src="beetroot_man.jpg" alt="beetroot-man">
+        <div id="paragraphs">
+            <p class="paragraph">seler naciowy (miejsce 30) nie ma nic wspólnego z selerem oprócz nazwy! Po co tak nazywać?!</p>
+            <p class="paragraph">rabarbar (miejsce 29) plusem jest dosyć śmieszna nazwa, której poprawnie nie potrafi wymówić mój kolega. Moja babcia robi dobry kompot z rabarbaru.</p>
+            <p class="paragraph">pietruszka (miejsce 26) biała podróba marchewki i nadaje sie tylko do rosołu.</p>
+            <p class="paragraph">ziemniaki (miejsce 5) brzydkie brudne tanie. Bez nich nie byłoby chipsów. Podstawowe warzywo, król obiadów.</p>
+            <p class="paragraph">bób (miejsce 4) to są chipsy warzyw, można jeść jeść jeść i nie przestawać</p>
+            <p class="paragraph">ogórek (miejsce 1) wiele rodzajow (kiszone, małosolne, konserwowe, zielone). Nie trzeba obierać, dobre do obiadu, dobre do mizerii.</p>
+        </div>
+
+        <h2 id="list-header">Ranking warzyw</h2>
+        <ul id="list">
+            <li>Ogórek</li>
+            <li>Pomidor</li>
+            <li>Burak</li>
+            <li>Kukurydza</li>
+            <li>Bób</li>
+            <li>Ziemniak kartofel</li>
+            <li>Fasolka szparagowa</li>
+            <li>Rzodkiewka</li>
+            <li>Papryka</li>
+            <li>Fasola (różne kolory)</li>
+            <li>Szczypiorek</li>
+            <li>Patison</li>
+            <li>Bakłażan cukinia kabaczek</li>
+            <li>Sałata</li>
+            <li>Szpinak</li>
+            <li>Cebula czerwona</li>
+            <li>Cebula biała</li>
+            <li>Czosnek</li>
+            <li>Kapusta</li>
+            <li>Brukselka</li>
+            <li>Chrzan</li>
+            <li>Marchawka</li>
+            <li>Brokuł</li>
+            <li>Szparagi</li>
+            <li>Kalafior</li>
+            <li>Pietruszka</li>
+            <li>Por</li>
+            <li>Dynia</li>
+            <li>Rabarbar</li>
+            <li>Seler Naciowy</li>
+            <li>Rzepa seler kalarepa</li>
+            <li>Jarmuż</li>
+        </ul>
+
+        <div id="funcButtons">
+            <h3>Pobieranie elementów/kolekcji elementów:</h3>
+            <input class="getElButton" type="button" onclick="getEl1()" value="getElementById()">
+            <input class="getElButton" type="button" onclick="getEl2()" value="querySelector()">
+            <input class="getElButton" type="button" onclick="getEl3()" value="getElementByClassName()">
+            <input class="getElButton" type="button" onclick="getEl4()" value="getElementsByTagName()">
+            <input class="getElButton" type="button" onclick="getEl5()" value="querySelectorAll()">
+
+            <h3>Zmiana stylu elementów:</h3>
+            <input type="button" value="Kolor nagłówka" onclick="changeHeaderColor()">
+            <input type="button" value="Czcionka paragraf" onclick="changeParagraphFont()">
+
+            <h3>Zmiana tekstu w 2. i 3. elemencie listy</h3>
+            <input type="button" value="Zmień tekst" onclick="listTextChange()">
+
+            <h3>Zmiana naglowka nad lista na pogrubiony (grubas)</h3>
+            <input type="button" value="Pogrub naglowek" onclick="boldListHeader()">
+
+            <h3 class="">Dodawanie nowej klasy do elementu (ten naglowek)</h3>
+            <input type="button" value="Dodaj klase" onclick="addClass()">
+
+            <h3>Dodanie nowego elementu do listy</h3>
+            <input type="button" value="Dodaj element" onclick="addListElement()">
+
+            <h3>Rzucanie kostką do gry (najedź na kostke i przewiń scrollem)</h3>
+            <img id="startDice" src="dice.png" alt="dice">
+            <span id="dice" style="font-size: 50px;">1</span>
+            <input id="stopDice" type="button" value="stop kostka">
+        </div>
+
+        <div id="formBox">
+            <form class="form">
+                <label for="email">Email</label><br>
+                <input required type="text" id="email" name="email" placeholder="email"><br>
+                <span id="mailInfo"></span>
+                <label for="login">Login</label><br>
+                <input required type="text" id="login" name="login" placeholder="login"><br>
+                <label for="password">Hasło</label><br>
+                <input required type="password" id="password" name="password" placeholder="haslo"><br>
+                <input type="checkbox" id="togglePwd" name="togglePwd">
+                pokaz haslo <br>
+                <input required type="checkbox" id="agree" name="agree">
+                Zgadzam sie z <a href="https://9.allegroimg.com/original/032263/b6b9b8924ab58c592bd025525f99/REGULAMIN-PLACU-ZABAW-plac-zabaw-tablica-60x42" target="_blank">Regulaminem</a>
+                <br>
+                <input id="checkForm" class="formButton" type="submit" value="sprawdź">
+                <input class="formButton" type="reset" value="wyczyść formularz" onclick="clearForm()">
+            </form>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
